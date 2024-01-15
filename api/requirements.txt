@@ -3,3 +3,5 @@ uvicorn==0.25.0
 embedchain
 beautifulsoup4
 sentence-transformers
+youtube-transcript-api
+pytube
