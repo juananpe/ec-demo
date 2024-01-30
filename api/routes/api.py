@@ -1,4 +1,4 @@
-from embedchain import Pipeline
+from embedchain import App
 from fastapi import APIRouter, Query, responses
 from pydantic import BaseModel
 import uuid
@@ -45,7 +45,7 @@ app_config = {
 }
 
 
-ec_app = Pipeline.from_config(config=app_config)
+ec_app = App.from_config(config=app_config)
 
 
 class SourceModel(BaseModel):
