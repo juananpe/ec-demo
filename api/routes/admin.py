@@ -14,7 +14,6 @@ chroma_settings = Settings(
     chroma_api_impl="chromadb.api.fastapi.FastAPI",
     chroma_server_host=os.environ.get("CHROMA_SERVER_HOST", "localhost"),
     chroma_server_http_port=8000,
-    
 )
 client = chromadb.Client(chroma_settings)
 
