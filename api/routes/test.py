@@ -1,8 +1,13 @@
 from embedchain import App
 from dotenv import load_dotenv
 import os
+import re
+import json
+import requests
+from datetime import datetime
+from bs4 import BeautifulSoup
 
-load_dotenv(".env")
+load_dotenv("../.env")
 
 
 PROMPT_WITH_HISTORY = """
@@ -19,12 +24,15 @@ PROMPT_WITH_HISTORY = """
   Helpful Answer:
 """  # noqa:E501
 
+
+collection_name = "jose_store"
+
 # App config using OpenAI gpt-3.5-turbo-1106 as LLM
 app_config = {
     "app": {
         "config": {
             "id": "embedchain-demo-app",
-            "log_level" : "WARNING"
+            "log_level" : "DEBUG"
         },
     },
     "llm": {
@@ -37,7 +45,7 @@ app_config = {
     "vectordb": {
             "provider": "chroma",
             "config": {
-                "collection_name": "testing",
+                "collection_name": collection_name,
                 "host": os.getenv("HOST"),
                 "port": os.getenv("PORT"),
                 "allow_reset": True
@@ -73,32 +81,88 @@ app_config = {
 #             "collection_name": "embedchain_store",
 #             "host": "158.227.113.219",
 #             "port": 8000,
-#             "allow_reset": True
+#             "allow_reset": True,
 #         }
 #     },
 # }
 
-elon_bot = App.from_config(config=app_config)
 
-# Embed online resources
-# elon_bot.add("https://www.eldiario.es/politica/gobierno-da-garantizada-legislatura-aprobacion-amnistia-pese-no-junts-congreso_1_10881377.html")
-elon_bot.add("https://en.wikipedia.org/wiki/Elon_Musk")
-#elon_bot.add("https://www.forbes.com/profile/elon-musk")
+def convert_time_to_seconds(time_str):
+    """Converts a time string in the format HH:MM:SS,SSS to total seconds."""
+    hours, minutes, seconds = time_str.split(':')
+    seconds, milliseconds = seconds.split(',')
+    total_seconds = int(hours) * 3600 + int(minutes) * 60 + int(seconds)
+    return total_seconds
 
-# Query the bot
-# print(elon_bot.query("How many companies does Elon Musk run and name those?"))
-# Answer: Elon Musk currently runs several companies. As of my knowledge, he is the CEO and lead designer of SpaceX, the CEO and product architect of Tesla, Inc., the CEO and founder of Neuralink, and the CEO and founder of The Boring Company. However, please note that this information may change over time, so it's always good to verify the latest updates.
 
-# response = ec_app.chat(query, session_id=session_id, citations=citations)
+chatbot = App.from_config(config=app_config)
+# chatbot.config.logger.parent.setLevel("DEBUG")
 
-#from embedchain.config import BaseLlmConfig
-#query_config = BaseLlmConfig(number_documents=5)
+# RESET THE DATABASE collection
+chatbot.db.reset()
 
-answer, sources = elon_bot.chat("Qué ha ocurrido con la ley de amnistía?", citations=True, session_id="new_session_id")
-# answer, sources = elon_bot.chat("Who is Elon Musk?", citations=True)
+date = datetime.today().strftime('%Y-%m-%d')
+
+# URL of the directory listing
+directory_url = 'http://192.168.64.1:9000/'
+
+# Make an HTTP GET request to retrieve the directory listing
+response = requests.get(directory_url)
+
+# Check if the request was successful
+if response.status_code == 200:
+    # Use BeautifulSoup to parse the HTML content
+    soup = BeautifulSoup(response.content, 'html.parser')
+
+    # Find all links in the directory listing
+    links = soup.find_all('a')
+
+    # Filter out links to JSON files
+    json_file_links = [link.get('href') for link in links if link.get('href').endswith('.json')]
+
+    # Iterate over each JSON file link
+    for json_link in json_file_links:
+        # Construct the full URL for the JSON file
+        json_url = directory_url + json_link
+         # Make an HTTP GET request to download the JSON file
+        json_response = requests.get(json_url)
+
+        # Make sure the request was successful
+        if json_response.status_code == 200:
+            # Parse the JSON content
+            data = json_response.json()
+
+            for item in data:
+
+                # Extract information and create metadata
+
+                start_time = item["timestamp_start"]
+                start_seconds = convert_time_to_seconds(start_time)
+                item["url"] = f'{item["url"]}&t={start_seconds}s'
+
+
+                metadata = {
+                    "number": item["number"],
+                    "timestamp_start": item["timestamp_start"],
+                    "timestamp_end": item["timestamp_end"],
+                    "author": "Jose",
+                    "date": date,
+                    "kind": item["kind"],
+                    "file_number": item["file_number"],
+                    "filename": item["filename"],
+                    "url": item["url"],
+                }
+                
+                chatbot.add( item["text"],  data_type="text", metadata = metadata)
+else:
+    print(f"Failed to retrieve data. Status code: {response.status_code}")
+
+# context = chatbot.search("¿Qué es la inflación?", num_documents=5)
+# print(json.dumps(context))
+
+answer, sources = chatbot.chat("¿Qué es la inflación?", citations=True, session_id="juanan")
 print(answer)
-# print(sources)
 
-# print urls of lista
 for i in sources:
-    print(i[1]['url'])
+  print(i[1]['url'])
+  print(i[1]['score'])
