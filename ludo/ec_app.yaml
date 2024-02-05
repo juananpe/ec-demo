@@ -1,0 +1,27 @@
+app:
+  config:
+    id: embedchain-demo-app
+    log_level: DEBUG
+llm:
+  provider: openai
+  config:
+    model: gpt-3.5-turbo-1106
+    prompt: >
+      Use the following pieces of context to answer the query at the end.
+      If you don't know the answer, just say that you don't know, don't try to make up an answer.
+      I will provide you with our conversation history. Answer in spanish.
+      
+      $context
+      
+      History: $history
+      
+      Query: $query
+      
+      Helpful Answer:
+vectordb:
+  provider: chroma
+  config:
+    collection_name: jose_store
+    host: 127.0.0.1
+    port: 8000
+    allow_reset: true
