@@ -1,0 +1,79 @@
+[
+    {
+        "number": 1,
+        "timestamp_start": "00:00:00,000",
+        "timestamp_end": "00:00:58,120",
+        "text": " El Producto Interior Bruto (PIB) es el valor monetario de los bienes y servicios producidos en un año a nivel nacional. Este valor puede aumentar por dos razones: primero, por un incremento en la producción de bienes y servicios; y segundo, si suben los precios. Es importante tener en cuenta que, aunque el valor del PIB pueda crecer debido al aumento de precios, no se está reflejando un crecimiento real. Cuando se informa que el PIB de España aumentará en un %, aún desconocemos los detalles de cómo se mide este indicador.",
+        "old_text": "...nacional, ¿no? Que sería el valor monetario de los bienes y servicios que se fabrican en un periodo de tiempo que es un año. ¿Qué ocurre con este valor? Que este valor puede aumentar por dos motivos, por dos. Uno es porque realmente ha aumentado la producción de bienes y servicios, pero hay otro motivo. Y es que, ¿y si aumentan los precios? También aumenta el valor del producto nacional. Y no es verdad que has crecido. ¿Vale? Entonces, esa idea es importante tenerla en cuenta. Porque, claro, cuando nos dicen que... De ahí vamos a derivar al PIB, ¿eh? Pero ya lo haré, ¿no? Cuando nos dicen que el PIB en España va a crecer un 1% y el PIB se mide sumando el valor monetario de los bienes y servicios que se fabrican en España, no sabemos.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=0s"
+    },
+    {
+        "number": 2,
+        "timestamp_start": "00:00:58,120",
+        "timestamp_end": "00:01:28,080",
+        "text": " Your mission is to output the same text you receive, and just remove footnotes. No sabemos si el valor monetario crecerá un 1% debido a la inflación o si realmente la producción aumentará en un 1%. ¿Lo sabremos? Otro problema con el producto nacional era la inclusión de bienes intermedios. Por ejemplo, se sumaba la harina fabricada y también las barras de pan fabricadas, lo cual causaba confusión.",
+        "old_text": "No sabemos si vamos a crecer porque va a haber una inflación de un 1% y entonces ese valor monetario va a crecer un 1% o si realmente la producción va a aumentar en un 1%. No lo sabemos, ¿no? Entonces, ese es el primer problema. Otro problema que teníamos con el producto nacional es que a veces, al principio, también se metían lo que llamamos bienes intermedios. ¿Qué quiero decir con esto? Que, por ejemplo, pues tú sumabas la harina que se fabricaba y además sumabas las barras de pan que se fabricaban, ¿no? Claro, eso era un mal rollo.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=58s"
+    },
+    {
+        "number": 3,
+        "timestamp_start": "00:01:28,080",
+        "timestamp_end": "00:02:08,720",
+        "text": " Aquí está la versión revisada de las notas del seminario:\n\n¿Lo veis? Porque estabas sumando la harina dos veces. Luego, la idea es que solo se suman los bienes y servicios finales, no los intermedios. ¿Vale? Esto evita confusiones al calcular el producto nacional. Si te dicen que ha aumentado el producto nacional y esto se debe a un incremento en los precios (sin tener en cuenta la inflación), hablaríamos de euros corrientes. Por otro lado, si tenemos en cuenta la inflación, hablaríamos de euros constantes. ¿Qué quiero decir con esto? Mirad.",
+        "old_text": "¿Lo veis? Porque estabas sumando la harina dos veces. Entonces, la idea ahora es que sumas el valor monetario de los bienes y servicios finales. Solo los finales, ¿no? La harina no se fabrica. ¿Vale? Esta sería la idea. Para evitar y corregir el que el producto nacional te dé un equívoco, ¿no? Si te dicen que ha aumentado el producto nacional y eso sea debido a los precios, determinamos la siguiente idea. ¿Vale? Que hablaríamos de euros corrientes cuando no tenemos en cuenta la inflación. Y hablaríamos de euros constantes cuando tenemos en cuenta la inflación. ¿Qué quiero decir? Mirad.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=88s"
+    },
+    {
+        "number": 4,
+        "timestamp_start": "00:02:08,720",
+        "timestamp_end": "00:02:53,840",
+        "text": " Vamos a examinar este gráfico. Se trata de la evolución del producto nacional de un país en particular. Al observarlo en euros corrientes, parecería que el país ha experimentado crecimiento continuo. Sin embargo, si restamos el aumento de precios, es decir, aplicamos el deflactor del PIB, observaremos que el país entra en declive a partir de cierto año.",
+        "old_text": "Vamos a ver este gráfico, ¿no? Esta es la evolución del producto nacional, ¿vale? De un país concreto. Y fijaros, ¿eh? En euros corrientes parece que este país haya ido creciendo. ¿No? Siempre ha crecido. Siempre, siempre, siempre. ¿Veis? Aquí se ha casi estabilizado, pero ha crecido un poco. Pero si ahora yo le saco a estos números, le saco el aumento de precios, ¿vale? Ese país, ¿veis? A partir de este año decrece. Esto cada vez es más pequeño. ¿Vale? Ese filtro, ese filtro de en cuanto ha aumentado los precios lo llamamos deflactor del PIB. ¿Vale? El deflactor del PIB.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=128s"
+    },
+    {
+        "number": 5,
+        "timestamp_start": "00:02:53,840",
+        "timestamp_end": "00:03:30,180",
+        "text": " Cuando aplico el deflactor del PIB, obtengo euros constantes, lo que significa que ya se ha descontado el valor de la inflación. Por lo tanto, si me informan que hemos crecido un 1%, implica un aumento del 1%. Sin embargo, si me dicen que será un crecimiento del 1% en euros corrientes o términos nominales, no proporciona suficiente información, ya que no ha tenido en cuenta la inflación.",
+        "old_text": "Entonces, si yo le aplico el deflactor del PIB. Si yo le aplico el deflactor del PIB, tendré lo que se llaman euros constantes. ¿Vale? Entonces, cuando a mí me dicen que hemos crecido o que el año que viene vamos a crecer un 1% en euros constantes, me están diciendo que vamos a crecer un 1%. Porque ya han descontado el valor de la inflación. ¿Lo veis? Pero si me dicen que vamos a crecer un 1% en euros corrientes, no me están diciendo nada. ¿Vale? Euros corrientes también se dicen en términos nominales. ¿Vale? También lo dicen así.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=173s"
+    },
+    {
+        "number": 6,
+        "timestamp_start": "00:03:30,180",
+        "timestamp_end": "00:04:23,960",
+        "text": " Crecemos un 1% en términos nominales. Si consideramos la inflación, que es de un 7%, entonces el crecimiento en términos reales sería de un 1%. Por lo tanto, si te digo que vamos a crecer un 1% en euros constantes (en términos reales), significa que efectivamente experimentaremos un crecimiento del 1%, pese a la inflación.\n\nAhora, si el crecimiento en el país A es de un 13% en euros corrientes y la inflación es de un 20%, entonces disminuiremos nuestro valor en aproximadamente un 7%.",
+        "old_text": "¿Vale? Crecemos un 1% en términos nominales. No sabes nada. ¿Vale? Si te dicen en términos reales, entonces que estás creciendo ese 1%. ¿Vale? Entonces, si yo os digo que, por ejemplo, vamos a crecer un 1% en euros constantes y que la inflación va a ser de un 7%, te da igual. Ya lo has descontado. Me estás diciendo que en constantes no vas a crecer un 1%. Pues es que vas a crecer un 1%. Esa es la idea. ¿Vale? ¿Sí? Entonces, si yo os digo, por ejemplo, que, por ejemplo, yo qué sé, que el crecimiento en el país A va a ser de un 13% en euros corrientes, pero que la inflación es de un 20%, ¿cuánto vamos a crecer? Va a decrecer, ¿no? ¿Vale? Más o menos un 7%.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=210s"
+    },
+    {
+        "number": 7,
+        "timestamp_start": "00:04:23,960",
+        "timestamp_end": "00:05:08,760",
+        "text": " Sí, el deflactor es otra forma de medir la inflación, diferente al IPC y generalmente más precisa. A diferencia del IPC, que solo considera los bienes de consumo, el deflactor tiene en cuenta todo.",
+        "old_text": "Sí. Sí, ¿eh? Vale. ¿Hay alguna duda en esto? Es fácil, ¿no? Díganme. Sí. El deflactor es otra manera de medir la inflación, ¿os acordáis? ¿Vale? El IPC es una manera y el deflactor es otra mucho mejor que el IPC. Por eso hablamos del deflactor del PIB. ¿Vale? Porque el deflactor tiene en cuenta no solo los bienes de consumo, ¿no? Recordad, ¿eh? El IPC, ¿no? Índice de precios al consumo, ¿no? ¿Vale? Solo tiene en cuenta los bienes de consumo, mientras que el deflactor tiene en cuenta todo, todo, todo, todo. Esa sería la idea. Bueno, esto tendríais aquí un ejemplo, que no vale la pena que hablemos de él.",
+        "kind": "online_video",
+        "file_number": "17",
+        "filename": "4 2 Euros corrientes, euros constantes-wav.json",
+        "url": "https://www.youtube.com/watch?v=Q0Ze09_DH9w&t=263s"
+    }
+]

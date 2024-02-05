@@ -1,0 +1,57 @@
+[
+    {
+        "number": 1,
+        "timestamp_start": "00:00:00,000",
+        "timestamp_end": "00:01:02,060",
+        "text": " Network error occurred: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=100)",
+        "old_text": "¿Qué es la economía keynesiana? ¿Qué es una inflación de oferta? ¿Qué es lo que ocurre? Punto. Lo que yo os expliqué en clase, nada más. ¿Vale? Nada más. ¿Y cómo salirse una inflación de oferta? Punto. Todo el resto de Philips os olvidáis. Luego, de la política monetaria, que aún no la hemos visto, que hoy acabamos de verla, ¿no? ¿Vale? Hay todo un apartado que es el Banco Central Europeo. Los instrumentos que se utilizan. Olvidaros, olvidaros. Eso está ahí. Porque creo que es interesante y porque me lo ocurre. Punto. ¿Vale? Claro. Es como el Philips, ¿no? Dudo muchas veces y digo, lo saco.",
+        "kind": "online_video",
+        "file_number": "47",
+        "filename": "8 4 Diversas consideraciones-wav.json",
+        "url": "https://www.youtube.com/watch?v=OtAZD6E0JaI&t=0s"
+    },
+    {
+        "number": 2,
+        "timestamp_start": "00:01:02,060",
+        "timestamp_end": "00:01:54,420",
+        "text": " Network error occurred: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=100)",
+        "old_text": "Pero es que si lo saco, nunca más lo voy a tener presente. ¿Sabéis? Y es lo mismo que pasa con los instrumentos del Banco Central Europeo. Si lo elimino, me olvidaré hasta yo de que existe eso, ¿no? Entonces, prefiero que estén ahí los apuntes. ¿Vale? Pero os olvidáis, os olvidáis de todo eso. ¿Ok? Vale. Ahora. Albert tiene una duda sobre la PEC. Venga, va. Es sobre la Má Invisible. La Má Invisible. Bueno, entiendo que... ¿No te oye? Y es más, mira. No. No es importante, ¿no? Vale. ¿Qué pasa con la Má Invisible? Porque la pregunta de la PEC, ¿qué es? Dice que dónde falla la Má Invisible según qué.",
+        "kind": "online_video",
+        "file_number": "47",
+        "filename": "8 4 Diversas consideraciones-wav.json",
+        "url": "https://www.youtube.com/watch?v=OtAZD6E0JaI&t=62s"
+    },
+    {
+        "number": 3,
+        "timestamp_start": "00:01:59,180",
+        "timestamp_end": "00:02:42,620",
+        "text": " Network error occurred: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=100)",
+        "old_text": "La Má Invisible según el que hay. ¿En qué falla? ¿En qué falla? En que no saben de qué os falla y venís y yo creo que es que también... ¿Por qué? Porque tienen una responsabilidad, no si no... Vale. Esta es una posible causa, ¿no? ¿Vale? ¿Te acuerdas de la peli? El Nash. ¿Te acuerdas? Vale. ¿Sí o no? Sí, es decir, que entonces... Vivimos socialmente y, por tanto... Yo hoy tenía un dinar... ¿Un dinar? ¿Un dinar? A Malnoy, que os fará... Ya me he ido casi, pero está ahora en Kaku Unit, ¿no? Con el tío que os hará una conferencia sobre la economía social, ¿no? Y yo discutía de esto, ¿no? Claro, divertido es que él no está del todo convencido, ¿no? De lo que está trabajando, ¿no? Y yo decía, hombre, tío...",
+        "kind": "online_video",
+        "file_number": "47",
+        "filename": "8 4 Diversas consideraciones-wav.json",
+        "url": "https://www.youtube.com/watch?v=OtAZD6E0JaI&t=119s"
+    },
+    {
+        "number": 4,
+        "timestamp_start": "00:02:42,620",
+        "timestamp_end": "00:03:11,600",
+        "text": " Network error occurred: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=100)",
+        "old_text": "¿No? O sea, para mí es evidente, ¿no? Y para... Yo les hablaba de vosotros, ¿no? Y yo creo que tenéis esa evidencia, ¿no? O sea, si trabajáis juntos conseguimos mil veces cosas, muchas más, que si nos ponemos a competir. Hay momentos que sí que es bueno competir. Yo no digo que no. ¿Vale? Pero una cosa es competir y otra cosa es pelearse, ¿no? Que es un poco lo que hacemos en el mundo, ¿no? Eso no sirve para nada. Eso es terrible. Eso es perder energías, ¿no? Entonces, lo que nos dice Eric, ¿no? Si colaboramos es mejor.",
+        "kind": "online_video",
+        "file_number": "47",
+        "filename": "8 4 Diversas consideraciones-wav.json",
+        "url": "https://www.youtube.com/watch?v=OtAZD6E0JaI&t=162s"
+    },
+    {
+        "number": 5,
+        "timestamp_start": "00:03:11,600",
+        "timestamp_end": "00:03:55,740",
+        "text": " Network error occurred: HTTPConnectionPool(host='localhost', port=11434): Read timed out. (read timeout=100)",
+        "old_text": "Esta es una. Y luego hay otra razón, ¿os acordáis? ¿Esto qué tiene que ver con la mano invisible? ¿Esto qué es? Ya, pero ¿de qué va? Porque los clásicos pensaban que los medios salarios eran flexibles a baja, punto. Ya está, ¿no? ¿Vale? El circuito de agua. El ahorro, el ahorro. Esta es la otra causa, ¿no? Si el ahorro no se convierte en inversión, mal rollo. Ese es el problema de la mano invisible. Claro, son los dos problemas de la mano invisible, ¿no?",
+        "kind": "online_video",
+        "file_number": "47",
+        "filename": "8 4 Diversas consideraciones-wav.json",
+        "url": "https://www.youtube.com/watch?v=OtAZD6E0JaI&t=191s"
+    }
+]
